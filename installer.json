@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "2.4.5"
+    "version": "2.5.1"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -14,10 +14,10 @@
       "__app__": "loopar"
     },
     "App:loopar-webpage": {
-      "type": "Web App",
+      "has_website": 1,
       "name": "loopar-webpage",
       "description": "Loopar WebPage",
-      "version": "2.4.5",
+      "version": "2.5.1",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Infinity",
       "gap": "",
@@ -124,9 +124,18 @@
         {
           "parent_document": "App",
           "name": "N1fo14O6J2I5H1C",
-          "page": "Loopar Authentication",
+          "page": "Loopar Security",
           "link": "Security",
           "parent_menu": "Doc",
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "Fb2jLPrXGxHNlwD",
+          "page": "Loopar Security",
+          "link": "Overview",
+          "parent_menu": "Security",
           "document_parent_name": null,
           "router_only": 0
         },
@@ -210,19 +219,10 @@
       ],
       "info": ""
     },
-    "Entity:Module Group": {
-      "__app__": "loopar"
-    },
-    "Module Group:modules": {
-      "name": "modules",
-      "description": "Modules",
-      "in_sidebar": 1
-    },
     "Module:loopar-web": {
       "name": "loopar-web",
       "description": "Loopar WebPage",
       "app_name": "loopar-webpage",
-      "module_group": "modules",
       "icon": "Infinity",
       "in_sidebar": 1
     },
@@ -242,7 +242,6 @@
       "name": "loopar-webpage",
       "description": "loopar-webpage",
       "app_name": "loopar-webpage",
-      "module_group": "modules",
       "icon": "Infinity",
       "in_sidebar": 1
     },
@@ -269,6 +268,9 @@
     },
     "Page Builder:Loopar Permissions": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-permissions"
+    },
+    "Page Builder:Loopar Security": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-security"
     },
     "Page Builder:Loopar Storage": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-storage"
