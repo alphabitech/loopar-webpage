@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "loopar-webpage",
-    "version": "2.6.1"
+    "version": "2.6.2"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -14,21 +14,27 @@
       "__app__": "loopar"
     },
     "App:loopar-webpage": {
-      "has_website": 1,
       "name": "loopar-webpage",
       "description": "Loopar WebPage",
-      "version": "2.6.1",
+      "version": "2.6.2",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Infinity",
-      "gap": "",
-      "col_padding": "p-8",
+      "is_template": 0,
+      "requires": "",
       "logo": "[{\"name\":\"logo-light.svg\",\"size\":16526,\"type\":\"image\",\"src\":\"/assets/public/logo-light.svg\"}]",
       "logo_dark": "[{\"name\":\"logo-dark.svg\",\"size\":16646,\"type\":\"image\",\"src\":\"/assets/public/logo-dark.svg\"}]",
       "logo_mini": "[{\"name\":\"logo-mini-light.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-light.svg\"}]",
       "logo_mini_dark": "[{\"name\":\"logo-mini-dark.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-dark.svg\"}]",
       "favicon": "[{\"name\":\"logo-mini-dark.svg\",\"size\":810,\"type\":\"image\",\"src\":\"/assets/public/logo-mini-dark.svg\"}]",
+      "info": "",
+      "has_website": 1,
       "logo_width": 2,
-      "logo_height": "40",
+      "logo_height": "30",
+      "default_language": "en",
+      "languages": "",
+      "noindex": 0,
+      "gap": "",
+      "col_padding": "p-8",
       "has_footer": 1,
       "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; gap: 30px;\">\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>🚀 Loopar</h3>\r\n    <p>The meta-framework for building full-stack applications visually. Create complete apps with drag-and-drop, no complex setup required.</p>\r\n    <p><strong>📦 GitHub:</strong> <a href=\"https://github.com/alphabit-technology/loopar-framework\">github.com/alphabit-technology/loopar-framework</a></p>\r\n    <p><strong>✉️ Contact:</strong> <a href=\"mailto:hello@loopar.build\">hello@loopar.build</a></p>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>⚡ Features</h3>\r\n\r\n    <ul>\r\n      <li>Visual drag-and-drop builder</li>\r\n      <li>Auto-recursive Entity architecture</li>\r\n      <li>Multi-database support (MySQL, PostgreSQL, SQLite)</li>\r\n      <li>Multi-tenant ready</li>\r\n      <li>React + Vite + Tailwind CSS</li>\r\n      <li>Zero-config deployment</li>\r\n    </ul>\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    <h3>📚 Resources</h3>\r\n\r\n    <ul>\r\n      <li><a href=\"/doc\">Documentation</a></li>\r\n      <li><a href=\"/getting-started\">Getting Started</a></li>\r\n      <li><a href=\"/concepts\">Concepts</a></li>\r\n      <li><a href=\"https://github.com/alphabit-technology/loopar-framework/discussions\">Community</a></li>\r\n    </ul>\r\n  </div>\r\n</div>",
       "has_copyright": 1,
@@ -42,308 +48,343 @@
       "menu_items": [
         {
           "parent_document": "App",
-          "name": "tI6eB8mQj0r8CoL",
+          "name": "YDYS9O354HLWA13",
           "page": "Loopar Home",
           "link": "Home",
           "parent_menu": "",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 0
         },
         {
           "parent_document": "App",
-          "name": "y1jCuQ87AUGv0kT",
+          "name": "g41QH58tZB6VUSm",
           "page": "Loopar Introduction",
           "link": "Doc",
           "parent_menu": "",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 1
         },
         {
           "parent_document": "App",
-          "name": "o5g39aMRJOlrcYc",
+          "name": "Xdmcswy1p5xjeb3",
           "page": "Loopar Introduction",
           "link": "Get Started",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 2
         },
         {
           "parent_document": "App",
-          "name": "r8FCNI1Jrt301uv",
+          "name": "OBIvGXZ4eAVuym5",
           "page": "Loopar Introduction",
           "link": "Introduction",
           "parent_menu": "Get Started",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 3
         },
         {
           "parent_document": "App",
-          "name": "F06uYfm7X9KJ8x0",
+          "name": "U5Xt1R0K6CJdDnW",
           "page": "Getting Started",
           "link": "Getting Started",
           "parent_menu": "Get Started",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 4
         },
         {
           "parent_document": "App",
-          "name": "ku69Dpl1C71A7e1",
+          "name": "xXKQN2H6113cTiR",
           "page": "Learn",
           "link": "Learn",
           "parent_menu": "Get Started",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 5
         },
         {
           "parent_document": "App",
-          "name": "hlPoi4hrvJc7PjH",
+          "name": "xUmMRH6p8V5soln",
           "page": "Loopar Concepts",
           "link": "Build",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 6
         },
         {
           "parent_document": "App",
-          "name": "cIKcNJhV9lnty6O",
+          "name": "uQAlJ11hftPk0Vg",
           "page": "Loopar Concepts",
           "link": "Concepts",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 7
         },
         {
           "parent_document": "App",
-          "name": "cLaV8t1whgWr44T",
+          "name": "B562i1JpgHMZufY",
           "page": "Loopar Designer",
           "link": "Designer",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 8
         },
         {
           "parent_document": "App",
-          "name": "Io4S7DQxjqEiZgM",
+          "name": "eGR7KWL6F51U5Bc",
           "page": "Loopar Components",
           "link": "Components",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 9
         },
         {
           "parent_document": "App",
-          "name": "TjuhcKd9r5AaPVw",
+          "name": "pA3WQG392v5Ylh8",
           "page": "Loopar Workflows",
           "link": "Workflows",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 10
         },
         {
           "parent_document": "App",
-          "name": "BCDE3K84CFDZOUL",
+          "name": "VX6CJMTA8NPHSRO",
           "page": "Loopar Desk Pages",
           "link": "Desk Pages",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 11
         },
         {
           "parent_document": "App",
-          "name": "Imig8tOcsNBSwu7",
+          "name": "v5TiPyx56ojVW1H",
           "page": "Loopar Printing",
           "link": "Printing",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 12
         },
         {
           "parent_document": "App",
-          "name": "9sJwlIAU3C1T6vz",
+          "name": "b8jKMhP1O3X1eYS",
           "page": "Loopar Website",
           "link": "Website",
           "parent_menu": "Build",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 13
         },
         {
           "parent_document": "App",
-          "name": "N1fo14O6J2I5H1C",
+          "name": "lQR5q2yWjMf5mT9",
           "page": "Loopar Security",
           "link": "Security",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 14
         },
         {
           "parent_document": "App",
-          "name": "Fb2jLPrXGxHNlwD",
+          "name": "Y9fUe45dE2L3NJP",
           "page": "Loopar Security",
           "link": "Overview",
           "parent_menu": "Security",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 15
         },
         {
           "parent_document": "App",
-          "name": "sr479j7Oy7RAmo4",
+          "name": "R4mwui5K1RoPB1N",
           "page": "Loopar Authentication",
           "link": "Authentication",
           "parent_menu": "Security",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 16
         },
         {
           "parent_document": "App",
-          "name": "qK0UHNJ8yn3R9gx",
+          "name": "IGcx5HAbK3nqm4X",
           "page": "Loopar Permissions",
           "link": "Permissions",
           "parent_menu": "Security",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 17
         },
         {
           "parent_document": "App",
-          "name": "rQ2BndEZhnU9RUO",
+          "name": "D1GvRmVA5YXW1nq",
           "page": "Loopar CRM",
           "link": "Platform",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 18
         },
         {
           "parent_document": "App",
-          "name": "TwR8TtxezfPLHiq",
+          "name": "FKyMfUIBOW5g3RL",
           "page": "Loopar CRM",
           "link": "CRM",
           "parent_menu": "Platform",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 19
         },
         {
           "parent_document": "App",
-          "name": "HLRTBh7eFHCOU94",
+          "name": "nwsUVkKhONG76Rd",
           "page": "Loopar Email",
           "link": "Email",
           "parent_menu": "Platform",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 20
         },
         {
           "parent_document": "App",
-          "name": "Pwc7qdGux4pDvLi",
+          "name": "H505pGnkbPBaEIA",
           "page": "Loopar Storage",
           "link": "Storage",
           "parent_menu": "Platform",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 21
         },
         {
           "parent_document": "App",
-          "name": "PI88LfjchB5FmVu",
+          "name": "B4ombsHAP5lfa5I",
           "page": "Loopar Analytics",
           "link": "Analytics",
           "parent_menu": "Platform",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 22
         },
         {
           "parent_document": "App",
-          "name": "W30YQtGycujlrwq",
+          "name": "N7o601ly4XZKcSt",
           "page": "Loopar Scheduled Jobs",
           "link": "Scheduled Jobs",
           "parent_menu": "Platform",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 23
         },
         {
           "parent_document": "App",
-          "name": "EwcepGar9efPeZy",
+          "name": "AQBRLFW33SHYaMl",
           "page": "Loopar Deployment",
           "link": "Operate",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 24
         },
         {
           "parent_document": "App",
-          "name": "NuMIRs0Fqdj4p7m",
+          "name": "X7MIDPQ1HRWLVTC",
           "page": "Loopar Deployment",
           "link": "Deployment",
           "parent_menu": "Operate",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 25
         },
         {
           "parent_document": "App",
-          "name": "0TBgkwRf2fgHqlj",
+          "name": "H821uWEtob4vTUc",
           "page": "Loopar CLI",
           "link": "CLI",
           "parent_menu": "Operate",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 26
         },
         {
           "parent_document": "App",
-          "name": "mU2hoqOWayxH7oy",
+          "name": "foyTu5rx977B1R5",
           "page": "Loopar Backups",
           "link": "Backups",
           "parent_menu": "Operate",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 27
         },
         {
           "parent_document": "App",
-          "name": "fkP5m5lmvQ6XPwu",
+          "name": "mKOX8HJLaBUGRYE",
           "page": "Loopar Debugger",
           "link": "Debugger",
           "parent_menu": "Operate",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 28
         },
         {
           "parent_document": "App",
-          "name": "iSxKD6CvBFmbiZP",
+          "name": "PIXW7BYD32KqCfQ",
           "page": "Loopar Api Reference",
           "link": "Reference",
           "parent_menu": "Doc",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 29
         },
         {
           "parent_document": "App",
-          "name": "WHLb6Sj93n8iuE6",
+          "name": "YoPup15r3FZa0BT",
           "page": "Loopar Api Reference",
           "link": "Api Reference",
           "parent_menu": "Reference",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 30
         },
         {
           "parent_document": "App",
-          "name": "OxZ728Kdbnwc9m7",
+          "name": "yXqT9Rydrwfj3lv",
           "page": "Loopar Examples",
           "link": "Examples",
           "parent_menu": "Reference",
           "document_parent_name": null,
-          "router_only": 0
+          "router_only": 0,
+          "__position__": 31
         }
       ],
       "menu_actions": [
         {
           "parent_document": "App",
-          "name": "SLOiA7FTc841a9E",
+          "name": "qaoxh647YVucdJ5",
           "icon": "SiX",
-          "action": "https://x.com/LooparBuild"
+          "action": "https://x.com/LooparBuild",
+          "__position__": 0,
+          "label": null
         },
         {
           "parent_document": "App",
-          "name": "hKC30Xm9uFe1aL3",
+          "name": "fM4q4vI6U4triYs",
           "icon": "SiGithub",
-          "action": "https://github.com/alphabit-technology/loopar-framework.git"
+          "action": "https://github.com/alphabit-technology/loopar-framework.git",
+          "__position__": 1,
+          "label": null
         }
-      ],
-      "info": ""
+      ]
     },
     "Module:loopar-web": {
       "name": "loopar-web",
@@ -380,8 +421,20 @@
     "Page Builder:Loopar Authentication": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-authentication"
     },
+    "Page Builder:Loopar Backups": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-backups"
+    },
+    "Page Builder:Loopar CLI": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-cli"
+    },
     "Page Builder:Loopar Components": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-components"
+    },
+    "Page Builder:Loopar CRM": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-crm"
+    },
+    "Page Builder:Loopar Debugger": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-debugger"
     },
     "Page Builder:Loopar Deployment": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-deployment"
@@ -389,11 +442,20 @@
     "Page Builder:Loopar Designer": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-designer"
     },
+    "Page Builder:Loopar Desk Pages": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-desk-pages"
+    },
     "Page Builder:Loopar Email": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-email"
     },
     "Page Builder:Loopar Permissions": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-permissions"
+    },
+    "Page Builder:Loopar Printing": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-printing"
+    },
+    "Page Builder:Loopar Scheduled Jobs": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-scheduled-jobs"
     },
     "Page Builder:Loopar Security": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-security"
@@ -401,32 +463,11 @@
     "Page Builder:Loopar Storage": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-storage"
     },
-    "Page Builder:Loopar Workflows": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-workflows"
-    },
-    "Page Builder:Loopar Desk Pages": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-desk-pages"
-    },
-    "Page Builder:Loopar Printing": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-printing"
-    },
     "Page Builder:Loopar Website": {
       "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-website"
     },
-    "Page Builder:Loopar CRM": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-crm"
-    },
-    "Page Builder:Loopar Scheduled Jobs": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-scheduled-jobs"
-    },
-    "Page Builder:Loopar Backups": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-backups"
-    },
-    "Page Builder:Loopar Debugger": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-debugger"
-    },
-    "Page Builder:Loopar CLI": {
-      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-cli"
+    "Page Builder:Loopar Workflows": {
+      "__root__": "/apps/loopar-webpage/modules/loopar-webpage/pages/loopar-workflows"
     },
     "Page Builder:Loopar Concepts": {
       "__root__": "/apps/loopar-webpage/modules/loopar-web/pages/loopar-concepts"
